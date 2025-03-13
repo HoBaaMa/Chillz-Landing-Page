@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, rgba(190, 18, 65, 1) 0%, rgba(246, 71, 118, 1) 100%);
+    height: 100vh;
+    width: 100%;
+    /* background-size: cover;
+    background-position: center; */
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10% 0 10%;
+
+}
+
+.logo {
+    align-items: center;
+}
+
+/* nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10% 0 10%;
+} */
+
+
+
+/* nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+} */
+
+#nav-items {
+    display: flex;
+    align-items: center;
+}
+
+#nav-items li {
+    margin-left: 73px;
+}
+
+#nav-items a {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#nav-items a:hover {
+    color: #ffc7d6;
+}
+
+.order-btn {
+    border: solid 1px #FFF;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 327px;
+    height: 58px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.order-btn:hover {
+    transform: scale(1.1);
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Use space-between for better alignment */
+}
+
+.hero-section h1 {
+    font-family: "Pacifico", cursive;
+    color: #FFF;
+    font-size: 160px;
+}
+
+.hero-section h2 {
+    color: #FFF;
+    font-size: 66px;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+
+.hero-section p {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    width: 806px;
+    height: 171px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-img {
+    width: 48%;
+    /* Increase width for larger image */
+    display: flex;
+    justify-content: flex-end;
+    /* Align image to the right */
+    align-items: flex-end;
+    /* Align image to the bottom */
+
+}
+
+.hero-img img {
+    width: 66%;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Ensure it doesn't exceed container */
+}
+
+.square-container {
+    display: flex;
+    justify-content: flex-start;
+    /* Align squares to the left */
+    align-items: center;
+    margin-top: 90px;
+    /* Add space above squares */
+}
+
+.square {
+    width: 78px;
+    height: 66px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2.36px solid #FFF;
+    border-radius: 4.73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    /* Allow overflow */
+    margin-right: 64px;
+    position: relative;
+    /* Set position relative for absolute positioning */
+}
+
+.square:last-child {
+    margin-right: 0;
+    /* Remove margin from last square */
+}
+
+.square img {
+    width: 90.64px;
+    height: auto;
+    /* Adjust width as needed */
+    position: absolute;
+    /* Position image absolutely */
+    bottom: 0;
+    /* Align image to the bottom of the square */
+    transform: translate(122, 715);
+    z-index: 1000;
+}
+
+::selection {
+    background-color: rgba(0, 0, 0, 0.1);
+}
