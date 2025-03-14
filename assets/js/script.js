@@ -1,5 +1,4 @@
-// Initialize ScrollReveal
-ScrollReveal().reveal('.square', { interval: 100 });
+
 
 // Array of image sources, titles, and background colors
 const images = [
