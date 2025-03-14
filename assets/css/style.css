@@ -213,7 +213,7 @@ nav ul li a {
 /* AA 5 Specific Responsive Design */
 @media screen and (min-width: 1366px) and (max-width: 1920px) {
     header {
-        padding: 20px 5%;
+        padding: 25px 10%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -238,20 +238,21 @@ nav ul li a {
     .hero-section h1 {
         font-family: "Pacifico", cursive;
         color: #FFF;
-        font-size: 120px;
+        font-size: 100px;
         line-height: 1;
+        margin-top: 15px;
     }
 
     .hero-section h2 {
         color: #FFF;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bolder;
-        margin: 15px 0;
+        margin: 30px 0;
     }
 
     .hero-section p {
         color: #FFF;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 140%;
         width: 90%;
@@ -275,7 +276,7 @@ nav ul li a {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .square {
@@ -318,6 +319,10 @@ nav ul li a {
     .square img {
         width: 80px;
     }
+    .order-btn {
+        display: none;
+    }
+    
 }
 
 /* Responsive design for smaller screens */
