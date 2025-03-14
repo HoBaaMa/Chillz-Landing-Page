@@ -84,7 +84,7 @@ nav ul li a {
     width: 327px;
     height: 58px;
     transition: 0.3s ease-in-out;
-
+    cursor: pointer;
 }
 
 .order-btn:hover {
@@ -319,10 +319,11 @@ nav ul li a {
     .square img {
         width: 80px;
     }
+
     .order-btn {
         display: none;
     }
-    
+
 }
 
 /* Responsive design for smaller screens */
